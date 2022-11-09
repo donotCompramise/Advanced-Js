@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+  </head>
+  <body>
+   <div id="parent">
+    <!-- <div class="all-boxes"></div> -->
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+    <div class="all-boxes"></div>
+
+   <div>
+    
+
+
+  <script>
+     document.getElementById("parent").setAttribute("style","display:flex; flex-direction:column;justify-content:center; align-items:center;")
+    for(let i=1;i<19;i++){
+     
+    var box=document.getElementsByClassName("all-boxes")[i];
+    if( i===1)
+    {
+      box.innerHTML=`${i}st child`
+    }
+    else{if(i===2){
+      box.innerHTML=`${i}st child`
+    }
+    else{
+      if(i===3){
+      box.innerHTML=`${i}rd child`
+    }
+    else{
+      box.innerHTML=`${i}th child`
+    }
+    }
+  }
+   
+    box.setAttribute("style","border:2px solid black; height:15px; width:50px; font-size:10px; display:flex; flex-direction:column; justify-content:center;  align-items:center;  margin:2px; border-radius:5px");
+    if(i===1)
+    {
+      box.style.backgroundColor="blue";
+      box.style.color="white";
+    }
+    else{ 
+      if(i===9){
+      box.style.backgroundColor="green";
+      box.style.color="white";
+      }
+      else{
+        if(i===17){
+          box.style.backgroundColor="palevioletred";
+          box.style.color="white";
+        }
+        else{
+          if(i%2===0){
+          box.style.backgroundColor="lime";
+          box.style.color="white";
+          }
+        }
+      }
+
+    }
+  }
+  </script>
+  </body>
+</html>
