@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <img src="https://english.cdn.zeenews.com/sites/default/files/2022/11/04/1112679-2.jpg" alt="image" class="slide-photos" height=" 300px;" width="600px;">
+  </body>
+  <script>
+
+    const photos=["https://english.cdn.zeenews.com/sites/default/files/2022/11/04/1112679-2.jpg",
+                  "https://wallpapercave.com/wp/hQuSTGC.jpg",
+                  "https://telugubullet.com/wp-content/uploads/2021/05/Virat-Kohli-03.png",
+                  "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/11/18/Pictures/cricket-sri-ind_086c6de0-eb26-11e8-9800-40e053fa8e14.jpg"];
+    var len=photos.length;
+    var img = document.getElementsByClassName("slide-photos")[0];
+    var index=0;
+    setInterval(()=>{
+      index++;
+      img.src=photos[index];
+      if(index===len-1)
+      {
+        index=-1;
+      }
+    },2000)
+  </script>
+
+</html>
