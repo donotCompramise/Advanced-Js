@@ -14,12 +14,10 @@ var peoples=Number(howManyPeoples)
 console.log(peoples)
 const tipAmount=document.getElementById('Tip_amount')
 
-
      var tip=Number(Number(bill) *Number(rating))/Number(peoples);
-    //  console.log(Number(tip))
      let html=''
      html +=`<p>Tip Amount</p>
-     <p>${tip}</p>
+     <p><span>$</span>${tip}<span>.00</span></p>
      <p>each</p>`
 tipAmount.innerHTML=html
 
