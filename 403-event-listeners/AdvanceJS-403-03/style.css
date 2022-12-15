@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://img.lovepik.com/element/40160/0093.png_300.png");
+
+}
+#main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    height: 720px;
+    width: 500px;
+    margin: auto;
+    margin-top: 32px;
+    padding: 32px;
+}
+#bill_amount_label{
+    margin-top: 32px;
+}
+#search_input{
+    height: 30px;
+    width: 150px;
+}
+#how_many_peoples{
+    height: 30px;
+    width: 110px;
+}
+#drop_down_list{
+    height: 30px;
+    width: 150px;
+    margin: 32px;
+    margin: 0PX;
+    
+}
+#calculate_button{
+    width: 200px;
+    height: 64px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 32px;
+    background-color: rgb(118, 60, 19);
+}
+#Tip_amount{
+    font-size: 24px;
+    color:  rgb(118, 60, 19);;
+}
