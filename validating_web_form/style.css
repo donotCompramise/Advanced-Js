@@ -1,0 +1,30 @@
+#heading{
+    text-align: center;
+}
+form{
+    width: calc(100vw - 250px);
+    margin-top: 100px;
+    margin-left: 450px;
+
+}
+#name_search,#last_name_search,#email_search,#password_search,#telephone_search,#bio_search{
+    width: 500px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 5px;
+
+}
+.label_container{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+button{
+    margin-left: 450px;
+    /* height: 0px; */
+    font-size: 32px;
+    background-color: grey;
+    border-radius: 4px;
+    
+}

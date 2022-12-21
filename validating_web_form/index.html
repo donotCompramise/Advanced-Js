@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validating web form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Validating Web Forms</h1>
+    <form id="form_validation">
+        <label class="label_container">First Name<br>
+            <input type="text" id="name_search">
+            <p id="name_condition"></p>
+        </label>
+        <label class="label_container">Last Name<br>
+            <input type="text" id="last_name_search">
+            <p id="last_name_condition"></p>
+        </label>
+        <label class="label_container">Email<br>
+            <input type="email" id="email_search">
+            <p id="Email_condition"></p>
+        </label>
+        <label class="label_container">Password<br>
+            <input type="password" id="password_search">
+            <p id="password_condition"></p>
+        </label>
+        <label class="label_container">Telephone<br>
+            <input type="number" id="telephone_search">
+            <p id="telephone_condition"></p>
+        </label>
+        <label class="label_container">Your bio<br>
+            <input type="text" id="bio_search">
+            <p id="bio_condition"></p>
+        </label>
+    </form>
+    <button id="submit_button">Submit</button>
+</body>
+<script src="./script.js"></script>
+</html>
