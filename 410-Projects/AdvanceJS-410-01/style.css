@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    background-color:#000;
+    color: #fff
+}
+#main_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0px;
+    align-items: center;
+}
+#heading_container,#action_container{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: #ffffff;
+
+    
+}
+#github_image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#hint_container{
+    display: flex;
+    width: 700px;
+    margin-top: 32px;
+    justify-content: space-around;
+    color: #ffffff;
+}
+#clear_button{
+    border: none;
+    background-color: grey;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+#search_input{
+    margin-left: 80px;
+    margin-top: 16px ;
+    width: 450px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+#search_container{
+    position: relative;
+}
+#go_button{
+    position: absolute;
+    top: 15px;
+    left: 451px;
+    height: 31px;
+    width: 79px;
+    border: none;
+    background-color:  blue;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+}
+#profiles_container{
+    padding: 32px 0px;
+    margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.profile{
+    display: flex;
+    gap: 32px;
+    color: #ffffff;
+}
+.profile_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
