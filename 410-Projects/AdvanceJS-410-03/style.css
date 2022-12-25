@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sub_heading{
+    font-weight: lighter;
+   
+}
+#main_heading,#sub_heading{
+    text-align: center;
+    padding: 4px;
+}
+#search_input{
+ margin: 0px 580px;
+ margin-top: 64px;
+ width: 250px;
+}
+#img_container{
+    display: flex;
+    width: calc(100vw - 250px); 
+    gap: 20px;
+    /* margin-left: 100px; */
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
