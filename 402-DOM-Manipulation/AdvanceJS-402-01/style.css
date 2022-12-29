@@ -33,6 +33,9 @@ body{
     width: 400px;
     border: purple;
     border-radius: 20px;
+    font-size: 20PX;
+    color: #ffffff;
+    padding-left: 50px;
 }
 #search_image,#mic_img{
     position: absolute;
